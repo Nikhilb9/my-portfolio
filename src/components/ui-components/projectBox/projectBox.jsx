@@ -1,9 +1,7 @@
 import React from "react";
 // Scss
 import "./projectBox.scss";
-function openLink(link) {
-  console.log(link)
-}
+
 const projectBox = (props) => (
   <div className="portfolio__box">
     <a href={props.link} target='_blank'>
