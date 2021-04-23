@@ -5,12 +5,14 @@ import Masonry from "react-masonry-css";
 import "./portfolio.scss";
 //Assets
 import Arrow from "../../assets/portfolio/arrow.svg";
-import Preview1 from "../../assets/portfolio/project01/preview.png";
-import Preview2 from "../../assets/portfolio/project02/preview.png";
-import Preview3 from "../../assets/portfolio/project03/preview.png";
-import Preview4 from "../../assets/portfolio/project04/preview.png";
-import Preview5 from "../../assets/portfolio/project05/preview.png";
-import Preview6 from "../../assets/portfolio/project06/preview.png";
+// import Preview1 from "../../assets/portfolio/project01/preview.png";
+// import Preview2 from "../../assets/portfolio/project02/preview.png";
+// import Preview3 from "../../assets/portfolio/project03/preview.png";
+// import Preview4 from "../../assets/portfolio/project04/preview.png";
+// import Preview5 from "../../assets/portfolio/project05/preview.png";
+// import Preview6 from "../../assets/portfolio/project06/preview.png";
+import Preview from "../../assets/projects/projects.jpg";
+
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -24,39 +26,59 @@ class Portfolio extends React.Component {
       projects: [
         {
           id: "1",
-          preview: Preview1,
-          title: "Lamp",
-          tag: "branding",
+          preview: Preview,
+          title: "LeverageEdu",
+          href:"https://leverageedu.com/"
+          // tag: "branding",
         },
         {
           id: "2",
-          preview: Preview2,
-          title: "Smartwatch",
-          tag: "web",
+          preview: Preview,
+          title: "Univalley",
+          href: "https://univalley.com/#"
+          // tag: "web",
         },
         {
           id: "3",
-          preview: Preview3,
-          title: "Speakerphone",
-          tag: "illustrations",
+          preview: Preview,
+          title: "Tutree student",
+          href: "https://student.tutree.com/"
+          // tag: "illustrations",
         },
         {
           id: "4",
-          preview: Preview4,
-          title: "Sneakers",
-          tag: "web",
+          preview: Preview,
+          title: "Tutree Tutor",
+          href: "https://tutor.tutree.com/"
+          // tag: "web",
         },
         {
           id: "5",
-          preview: Preview5,
-          title: "Label",
-          tag: "illustrations",
+          preview: Preview,
+          title: "indiaecat",
+          href: "http://indiaecat.com:3000/"
+          // tag: "illustrations",
         },
         {
           id: "6",
-          preview: Preview6,
-          title: "lemons",
-          tag: "branding",
+          preview: Preview,
+          title: "CSP",
+          href: "http://35.154.114.246/"
+          // tag: "branding",
+        },
+        {
+          id: "6",
+          preview: Preview,
+          title: "Uniconnect",
+          href: "https://uniconnect.leverageedu.com/"
+          // tag: "branding",
+        },
+        {
+          id: "6",
+          preview: Preview,
+          title: "IPNext",
+          href: "https://ipnext.leverageedu.com/"
+          // tag: "branding",
         },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING
@@ -117,7 +139,7 @@ class Portfolio extends React.Component {
     let projectsRender = null;
     if (this.state.filterResult) {
       projectsRender = this.state.filterResult.map((project) => (
-        <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} />
+        <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} link={project.href} />
       ));
     }
     // PORTFOLIO GALLERY BREAKPOINTS
@@ -153,7 +175,7 @@ class Portfolio extends React.Component {
                   <li className={this.state.pickedFilter === "all" ? "portfolio__nav-active font12" : "font12"} onClick={() => this.filterGallery("all")}>
                     ALL
                   </li>
-                  <li
+                  {/* <li
                     className={this.state.pickedFilter === "branding" ? "portfolio__nav-active font12" : "font12"}
                     onClick={() => this.filterGallery("branding")}
                   >
@@ -167,7 +189,7 @@ class Portfolio extends React.Component {
                   </li>
                   <li className={this.state.pickedFilter === "web" ? "portfolio__nav-active font12" : "font12"} onClick={() => this.filterGallery("web")}>
                     WEB
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </Col>

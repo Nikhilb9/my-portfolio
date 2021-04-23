@@ -15,10 +15,10 @@ const hero = () => (
           <div className="hero-info">
             <h1 className="weight800 font60">Hello!!!</h1>
             <h1 className="weight800 font60">
-              We Are Creative Photographers.
+              I am a software developer.
             </h1>
             <p className="font12">
-              When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.
+              Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
             </p>
             <Button label="SEND MESSAGE" target={"contact"} />
           </div>
