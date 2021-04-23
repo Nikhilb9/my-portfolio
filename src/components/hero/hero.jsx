@@ -25,7 +25,7 @@ const hero = () => (
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-image">
-            <img src={HeroImage} alt="hero" />
+            <img style={{ borderRadius: "50%"}} src={HeroImage} alt="hero" />
           </div>
         </Col>
       </Row>
