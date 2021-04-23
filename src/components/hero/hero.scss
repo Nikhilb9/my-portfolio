@@ -1,9 +1,10 @@
 @import '../../style/App.scss';
 
 .hero {
-  padding-top: 240px;
+  padding-top: 150px;
   width: 100%;
   padding-bottom: 60px;
+ 
   .hero-info {
     padding-top: 60px;
 
@@ -33,6 +34,7 @@
       float: none;
       margin: 0 auto;
       margin-top: 50px;
+       border-radius: 50%;
     }
   }
 }

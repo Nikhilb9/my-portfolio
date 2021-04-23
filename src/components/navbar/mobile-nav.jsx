@@ -51,7 +51,7 @@ const mobileNav = (props) => (
             ABOUT
           </Link>
         </li>
-        <li className="flex-center">
+        {/* <li className="flex-center">
           <Link
             activeClass="active-link"
             to="blog"
@@ -63,7 +63,7 @@ const mobileNav = (props) => (
           >
             BLOG
           </Link>
-        </li>
+        </li> */}
         <li className="flex-center">
           <Link
             activeClass="active-link"
