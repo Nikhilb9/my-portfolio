@@ -2,11 +2,13 @@
   "name": "nikhil-baisoya-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Nikhilb9/my-portfolio.git",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "emailjs-com": "^2.4.1",
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
     "object-assign": "^4.1.1",
     "react": "^16.13.1",
