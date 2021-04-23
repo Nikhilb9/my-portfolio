@@ -13,6 +13,7 @@ import Blog from "./components/blog/blog";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 
+
 class App extends React.Component {
   state = {
     userIsScrolled: false,
