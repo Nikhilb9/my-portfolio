@@ -3,7 +3,7 @@ import { Row, Col } from "react-flexbox-grid";
 // SCSS
 import "./hero.scss";
 //Assets
-import HeroImage from '../../assets/hero/hero-image.png';
+import HeroImage from '../../assets/hero/hero-image.jpg';
 //Components
 import Button from '../ui-components/button/button';
 
