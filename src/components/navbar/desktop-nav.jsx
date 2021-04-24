@@ -24,11 +24,11 @@ const desktopNav = (props) => (
               WORK
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link activeClass="active-link" to="about" spy={true} smooth={true} offset={-70} duration={500}>
               ABOUT
             </Link>
-          </li>
+          </li> */}
           {/* <li>
             <Link activeClass="active-link" to="blog" spy={true} smooth={true} offset={-70} duration={500}>
               BLOG

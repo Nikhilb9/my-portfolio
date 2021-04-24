@@ -7,7 +7,7 @@ import ContactInfo from './contactInfo/contactInfo';
 import ContactSocial from './contactInfo/contactSocial';
 import Modal from '../contact-modal/Modal';
 import { init } from 'emailjs-com';
-import ContactBackground from '../../assets/contact/bg.png';
+import ContactBackground from '../../assets/contact/lap.jpg';
 init("user_9Ik653INtQesFQW3lHx0a")
 
 
@@ -140,7 +140,7 @@ class Contact extends React.Component {
             </Col>
             <Col md={12} lg={6}>
               <div className="flex-center">
-                <img src={ContactBackground} alt="contact background" />
+                <img style={{borderRadius:"5%"}} src={ContactBackground} alt="contact background" />
               </div>
             </Col>
           </Row>
