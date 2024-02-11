@@ -29,57 +29,85 @@ class Portfolio extends React.Component {
           preview: Preview,
           title: "LeverageEdu",
           href:"https://leverageedu.com/"
-          // tag: "branding",
         },
         {
           id: "2",
           preview: Preview,
           title: "Univalley",
           href: "https://univalley.com/#"
-          // tag: "web",
         },
         {
           id: "3",
           preview: Preview,
           title: "Tutree student",
           href: "https://student.tutree.com/"
-          // tag: "illustrations",
         },
         {
           id: "4",
           preview: Preview,
           title: "Tutree Tutor",
           href: "https://tutor.tutree.com/"
-          // tag: "web",
         },
         {
           id: "5",
           preview: Preview,
           title: "indiaecat",
           href: "http://indiaecat.com:3000/"
-          // tag: "illustrations",
         },
         {
           id: "6",
           preview: Preview,
           title: "CSP",
           href: "http://35.154.114.246/"
-          // tag: "branding",
         },
         {
           id: "6",
           preview: Preview,
           title: "Uniconnect",
           href: "https://uniconnect.leverageedu.com/"
-          // tag: "branding",
         },
         {
           id: "6",
           preview: Preview,
           title: "IPNext",
           href: "https://ipnext.leverageedu.com/"
-          // tag: "branding",
         },
+        {
+          id: "7",
+          preview: Preview,
+          title: "Waste Management Ooredoo",
+          href:'https://www.ooredoo.qa/web/en/business/ict-solutions/internet-of-things/waste-managament/'
+        },
+        {
+          id: "8",
+          preview: Preview,
+          title: "Sewage Management Ooredoo",
+          href:'https://www.ooredoo.qa/web/en/business/ict-solutions/internet-of-things/waste-managament/'
+        },
+        {
+          id: "9",
+          preview: Preview,
+          title: "Asset Management Ooredoo",
+          href:'https://www.ooredoo.qa/web/en/business/ict-solutions/internet-of-things/asset-management/'
+        },
+        {
+          id: "10",
+          preview: Preview,
+          title: "Silk & Sonder",
+          href:'https://www.silkandsonder.com/'
+        },
+        {
+          id: "11",
+          preview: Preview,
+          title: "Blueverse",
+          href:'https://blueverseindia.com/'
+        },
+        {
+          id: "12",
+          preview: Preview,
+          title: "Bitetime",
+          href:'https://bitetime.com/'
+        }
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING
       filterResult: null,
